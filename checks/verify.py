@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Check every file in this repository against MANIFEST.sha256.
+"""Check every file listed in MANIFEST.sha256 against its recorded hash.
 
 Usage:
     python checks/verify.py            # verify

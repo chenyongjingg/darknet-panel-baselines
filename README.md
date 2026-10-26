@@ -67,3 +67,7 @@ The other twelve are the files the article's numbers were read from, not files r
 ## Citation
 
 Cite the article, and cite a product by filename and hash if you rely on a specific number. A bibliographic entry will be added here once the article appears.
+
+## Licence
+
+`checks/` is MIT (see `LICENSE`). `products/` is CC BY 4.0 (see `LICENSE-DATA`). The underlying archive is third-party material, is not distributed here, and is covered by neither.

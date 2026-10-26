@@ -1,5 +1,6 @@
 # darknet-panel-baselines: <sha256>  <bytes>  <path>
-# checks/verify.py is the reader of this file and is therefore not listed in it.
+# Covers products/ and checks/. Not listed: checks/verify.py (the reader of
+# this file) and README.md, LICENSE, LICENSE-DATA (prose and licence text).
 3f05a10fa31aa764829890343bff5288f1496b37bdb97b9514c0a4c54e8380ba  83517  products/g19_shipped_placebo.json
 ed123a376324a7cefb79a5fd03e09716c8c1f4bb82fc32c864ba99378e6a4235  52706  products/g30_same_unit_null.json
 9da1754eb8772a15dcd19c82224a53192d76960117e9f01219f8f5dff64b1b16  18189  products/g47_percentile_seed_band.json
