@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: >-
+  Cite the article for the argument. To cite a specific number, cite the product
+  by filename and the first sixteen hex digits of its SHA-256, both printed in the
+  article's Data availability statement.
+title: >-
+  darknet-panel-baselines: derived products and check scripts for the manuscript
+  "Baselines and detection floors: what a darknet market panel can and cannot say
+  about displacement"
+type: software
+authors:
+  - family-names: Xue
+    given-names: Ziying
+    affiliation: "People's Public Security University of China, Beijing 100038, China"
+  - family-names: Chen
+    given-names: Yongjin
+    affiliation: "People's Public Security University of China, Beijing 100038, China"
+  - family-names: Zhu
+    given-names: Songze
+    affiliation: "People's Public Security University of China, Beijing 100038, China"
+    email: 20196846@ppsuc.edu.cn
+version: "v1.3"
+date-released: "2026-10-26"
+license:
+  - MIT
+  - CC-BY-4.0
+url: "https://github.com/chenyongjingg/darknet-panel-baselines"
+repository-code: "https://github.com/chenyongjingg/darknet-panel-baselines"
+keywords:
+  - darknet markets
+  - market closure
+  - displacement
+  - measurement
+  - null results
+abstract: >-
+  Fourteen derived products, the check scripts that write them, and the two
+  scripts that draw the article's figures. The repository holds no listing rows,
+  page bodies, listing titles, seller handles or crawler output: the panel behind
+  these numbers is a third-party archive of publicly observable listings and is
+  not redistributed. Code is MIT, products are CC BY 4.0.

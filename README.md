@@ -31,6 +31,16 @@ python checks/verify.py
 
 It reads `MANIFEST.sha256`, recomputes the SHA-256 of every listed file, and exits non-zero if anything is missing or changed. `--table` prints the product table below from the files on disk, so the table and the manifest cannot drift apart silently.
 
+## Checking a number the article prints
+
+The article cites tag `v1.3`. Clone that tag if you want the exact tree a quoted number came from.
+
+1. Find the product the Data availability statement names for that quantity. The table below says what each product binds, and the article section that prints it.
+2. Run `python checks/verify.py`. No `CHANGED` or `MISSING` line for that file means its bytes are the ones the number was read from.
+3. Open the product. It is small JSON; the value the article prints is a numeric field, next to the counts it was computed from.
+
+What this establishes is narrow: the file is the file. It does not establish that the article read the field correctly, and it inherits the limit stated above, that a matching hash is not a rebuildable file.
+
 ## Products
 
 | product | bytes | sha256[:16] | what it binds | article |
@@ -89,6 +99,8 @@ The others are the files the article's numbers were read from, not files rebuilt
 
 ## Version history
 
+`v1.3` adds `CITATION.cff` and the section above on checking a printed number. No product, check script or figure changed: every hash and size in `MANIFEST.sha256` is the same as in `v1.2`, and `python checks/verify.py` still reports 34 files, 0 mismatched.
+
 `v1.0` and `v1.1` carried thirteen products and their scripts. `v1.2` adds
 `g52_vendor_key_grid.json`, the product behind the identity-rule band of §3.3, which
 the earlier tags described but did not ship, together with the two figure scripts and
@@ -97,7 +109,7 @@ their rendered output. Nothing in the earlier products changed; their hashes in
 
 ## Citation
 
-Cite the article, and cite a product by filename and hash if you rely on a specific number. A bibliographic entry will be added here once the article appears.
+Cite the article, and cite a product by filename and hash if you rely on a specific number. `CITATION.cff` carries the three authors and the article title, so GitHub's "Cite this repository" button works. It names the article rather than a journal, because the article is under review; a bibliographic entry will be added here once it appears.
 
 ## Licence
 
