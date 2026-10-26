@@ -7,8 +7,9 @@ Derived products, and the check scripts that write them, for the manuscript
 The article is under review. This repository holds the numbers it prints and the code that produced them.
 
 ```
-products/         13 JSON files, no raw data
-checks/           13 scripts that write the products, plus verify.py
+products/         14 JSON files, no raw data
+checks/           14 scripts that write the products, plus verify.py
+figures/          2 scripts that draw the article's figures, and what they draw
 MANIFEST.sha256   SHA-256 and byte size of every file above
 ```
 
@@ -47,6 +48,28 @@ It reads `MANIFEST.sha256`, recomputes the SHA-256 of every listed file, and exi
 | `g73_event_cluster_boot.json` | 15,197 | `50adf2a03d7d72cf` | Resampling by closure date instead of by event | §3.2 |
 | `g74_leave_one_event_out.json` | 24,852 | `5a81b4371d4b9b34` | Leave-one-event-out sweep, under both arms | §4.1 |
 | `g90_cap_treatment_criterion.json` | 14,702 | `6f25e8fb6a0eb6f3` | Page-cap deletion criterion, its two guards and its firing check | §4.4 |
+| `g52_vendor_key_grid.json` | 2,777 | `5f97f78a7b064512` | One multi-market share computed under seven vendor-identity rules: the band 0.4653–0.5560 | §3.3, Figure 2 |
+
+## Figures
+
+`figures/` holds the two pictures in the article and the scripts that draw them:
+
+| file | what it is |
+|---|---|
+| `fig1_continuity_null.py` | draws Figure 1 from `g19`, `g30` and `g47` |
+| `fig2_identity_band.py` | draws Figure 2 from `g52` |
+| `*.png`, `*.pdf` | what the scripts write, at 300 dpi and 17.5 cm width |
+
+Both scripts assert their inputs before drawing: `fig1` checks that the twelve
+per-event shares in `g19` average exactly to the twelve-event mean in `g30`, and
+`fig2` checks that the minimum and maximum of the seven-rule grid in `g52` are the
+band's two ends and that the two sides of the band add to its width. If a product
+changes, the figure stops rather than redrawing a different picture under the same
+caption.
+
+The rendered files are reproducible: both scripts pin their PDF metadata dates, and
+two independent runs produce byte-identical PNG and PDF, so the hashes in
+`MANIFEST.sha256` for `figures/` are checkable receipts rather than one-off values.
 
 ## One product is not the yardstick its neighbours suggest
 
@@ -62,7 +85,15 @@ Each script runs as `python <script>.py` and reads its inputs from paths written
 
 `pai_both_labels_vendors.json` was rebuilt from its script after the example handles were removed. The rerun reproduced every numeric field of the version it replaced: 346, 290, 489 and 918 sellers, 2,674 against 2,644 distinct strings in the name-rule control, both row counts, and all three gate flags. The two files differ in the removed field and in nothing else.
 
-The other twelve are the files the article's numbers were read from, not files rebuilt afterwards.
+The others are the files the article's numbers were read from, not files rebuilt afterwards.
+
+## Version history
+
+`v1.0` and `v1.1` carried thirteen products and their scripts. `v1.2` adds
+`g52_vendor_key_grid.json`, the product behind the identity-rule band of §3.3, which
+the earlier tags described but did not ship, together with the two figure scripts and
+their rendered output. Nothing in the earlier products changed; their hashes in
+`MANIFEST.sha256` are the same as in `v1.1`.
 
 ## Citation
 

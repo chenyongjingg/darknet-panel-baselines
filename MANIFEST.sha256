@@ -1,9 +1,11 @@
 # darknet-panel-baselines: <sha256>  <bytes>  <path>
-# Covers products/ and checks/. Not listed: checks/verify.py (the reader of
-# this file) and README.md, LICENSE, LICENSE-DATA (prose and licence text).
+# Covers products/, checks/ and figures/. Not listed: checks/verify.py (the
+# reader of this file) and README.md, LICENSE, LICENSE-DATA (prose and
+# licence text).
 3f05a10fa31aa764829890343bff5288f1496b37bdb97b9514c0a4c54e8380ba  83517  products/g19_shipped_placebo.json
 ed123a376324a7cefb79a5fd03e09716c8c1f4bb82fc32c864ba99378e6a4235  52706  products/g30_same_unit_null.json
 9da1754eb8772a15dcd19c82224a53192d76960117e9f01219f8f5dff64b1b16  18189  products/g47_percentile_seed_band.json
+5f97f78a7b0645127da2b0db6b11d6fcd854b6c7f8a2eaae950ef35e32feb1da  2777  products/g52_vendor_key_grid.json
 50adf2a03d7d72cff66fec259659f98dc5f72327152b7b2ec2b27d3d8273ad54  15197  products/g73_event_cluster_boot.json
 5a81d4371d4b9b34677bb1a340c86d2560d518860bc4f55bb18d27f984d60780  24852  products/g74_leave_one_event_out.json
 6f25e8fb6a0eb6f3560bf6ed3b21491d60d38ad40d8de43f7dca72fbb8997b06  14702  products/g90_cap_treatment_criterion.json
@@ -17,6 +19,7 @@ a3b140edf4296d453b7e1641bfd61b6288d6ab3d561b4b527b41d12ce4b35978  1099  products
 1fcb2898de0e26857291951fd1fc62f7317cb9de376a65f9006feaa56f437c05  10094  checks/g19_shipped_placebo.py
 fdf2e55714ce8f4e326ef7777a31e5cd08e3e2b7d9ae52127bbde69af194a24c  11562  checks/g30_same_unit_null.py
 433472ad5f64873b9602f783beb46ec80b2ddc05ac7f3c2656ce7902d7818b14  11971  checks/g47_percentile_seed_band.py
+82f537614459491516f7297438af44430680408688990333ce17d723f9c75048  9364  checks/g52_vendor_key_grid.py
 868fb64ed365b3a519cab330f0d698190a0ac506deb088b76307bd0f2bb77f9c  23166  checks/g73_event_cluster_boot.py
 ec33cf88731b843610d55aa1a17c3db5b1bd79b6f39ecc8038d98b7ad059a79b  14981  checks/g74_leave_one_event_out.py
 f607b9fc4192782db731f4585133ebc83d84844fffb2129080acb2e851325126  24153  checks/g90_cap_treatment_criterion.py
@@ -27,3 +30,9 @@ a7b0f5e390770b0795c51438f0160198a3be6f7aced94dd824f34e6ff7318fc9  6672  checks/p
 560403a10cf1ab6e819b000cae72e740ca12db36442617ba547b2c2b8aeda101  2587  checks/pai_pair_simultaneity.py
 8d19445df926060a1c677d6ec87ed0a3dc664ce658c6e2ab456b5dad3cbf70a7  5474  checks/pai_title_gap_matched.py
 d4a10606bb14ef4bab7bcbded61ee187b6ba3e86d4e9bd101e9e631a9817f116  6636  checks/pai_title_within_pair_v2.py
+6f2b1dd6a310c9dab5e4942e6b7e72879aee3d484cd5f4e8ec9e9b4d5b61f8b7  24010  figures/fig1_continuity_null.pdf
+faa1ca7bea6fe163461badb5f4202ee7c55fbd69eca951300ef7a5ce8de2b40b  167563  figures/fig1_continuity_null.png
+b34f5a7f22d64c755cd7510109fd651779bfec4b64be5d5f47b870c4b04c3441  5971  figures/fig1_continuity_null.py
+afc8d445f69cde50c1fff714d17236db2d583c956d327dc56f873a02c2309af9  14916  figures/fig2_identity_band.pdf
+fef7f1f41b56f4b015f4e48116d6e7864629a8314a8befd1402d0b7fa88f0b5c  75089  figures/fig2_identity_band.png
+c4c8baf9b9dfeff9ff7665805d0f880492e7d9765bf213f01ef8209f30e37f1b  4753  figures/fig2_identity_band.py
