@@ -1,0 +1,51 @@
+{
+  "source": "listings_full.tsv.gz",
+  "window": [
+    "2014-06-09",
+    "2016-04-17"
+  ],
+  "labels": [
+    "silkkitie",
+    "valhalla"
+  ],
+  "rows_kept": {
+    "silkkitie": 165800,
+    "valhalla": 1180300
+  },
+  "dropped": {
+    "market_not_whitelisted": 30
+  },
+  "rules": {
+    "fold": {
+      "vendors_silkkitie": 489,
+      "vendors_valhalla": 918,
+      "both_labels_any_week": 346,
+      "both_labels_same_week": 290
+    },
+    "ws": {
+      "vendors_silkkitie": 489,
+      "vendors_valhalla": 918,
+      "both_labels_any_week": 346,
+      "both_labels_same_week": 290
+    },
+    "exact": {
+      "vendors_silkkitie": 489,
+      "vendors_valhalla": 918,
+      "both_labels_any_week": 346,
+      "both_labels_same_week": 290
+    }
+  },
+  "name_rule_control": {
+    "rows": 3000000,
+    "distinct_exact": 2674,
+    "distinct_fold": 2644,
+    "distinct_ws": 2644,
+    "control_separates": true
+  },
+  "gates": {
+    "valhalla_vendors_at_least_silkkitie": true,
+    "ws_never_increases_distinct_vendors": true,
+    "name_rule_control_separates": true
+  },
+  "gate_ok": true
+}

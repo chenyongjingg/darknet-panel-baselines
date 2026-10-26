@@ -1,0 +1,4 @@
+# No end-of-line translation anywhere. The products are identified by the
+# SHA-256 of their bytes, and a checkout that rewrote CRLF would produce files
+# that no longer match the hashes printed in the article.
+* -text

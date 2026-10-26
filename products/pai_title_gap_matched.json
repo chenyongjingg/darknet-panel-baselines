@@ -1,0 +1,39 @@
+{
+  "src_sha16": "55f789912350963e",
+  "pair": [
+    "silkkitie",
+    "valhalla"
+  ],
+  "eligible_pairs_2plus_weeks": 32006,
+  "pairs_with_2plus_distinct_dates": 33442,
+  "windows": {
+    "strict_8_10": {
+      "n": 29995,
+      "changed": 1362,
+      "share": 0.045407567927987995,
+      "gap_median": 9,
+      "gap_p10": 8,
+      "gap_p90": 9
+    },
+    "main_6_12": {
+      "n": 30534,
+      "changed": 1378,
+      "share": 0.04513001899521844,
+      "gap_median": 9.0,
+      "gap_p10": 8,
+      "gap_p90": 9
+    },
+    "wide_4_14": {
+      "n": 30744,
+      "changed": 1380,
+      "share": 0.04488680718188915,
+      "gap_median": 9.0,
+      "gap_p10": 8,
+      "gap_p90": 9
+    }
+  },
+  "gates": {
+    "eligible": 32006
+  },
+  "gate_ok": true
+}

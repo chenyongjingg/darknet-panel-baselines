@@ -1,0 +1,560 @@
+{
+ "cluster": {
+  "frozen": {
+   "n_clusters": 12,
+   "posts": {
+    "12": {
+     "crit": 2.200985160082949,
+     "pct_excludes_zero": false,
+     "pct_hi": 0.028376378128893046,
+     "pct_lo": -0.05656270582969188,
+     "pct_width_pp": 8.493908395858494,
+     "se": 0.022056274261523158,
+     "share_negative": 0.78875,
+     "t_excludes_zero": false,
+     "t_hi": 0.03180643494802059,
+     "t_lo": -0.06528462972464336,
+     "t_width_pp": 9.709106467266395
+    },
+    "4": {
+     "crit": 2.200985160082949,
+     "pct_excludes_zero": false,
+     "pct_hi": 0.010836116811156081,
+     "pct_lo": -0.03735293081288725,
+     "pct_width_pp": 4.818904762404333,
+     "se": 0.012435251852232015,
+     "share_negative": 0.85825,
+     "t_excludes_zero": false,
+     "t_hi": 0.01417264119542389,
+     "t_lo": -0.040566968381889446,
+     "t_width_pp": 5.473960957731334
+    },
+    "8": {
+     "crit": 2.200985160082949,
+     "pct_excludes_zero": false,
+     "pct_hi": 0.012564938145995004,
+     "pct_lo": -0.05027926316512737,
+     "pct_width_pp": 6.2844201311122365,
+     "se": 0.016258654679478467,
+     "share_negative": 0.8665,
+     "t_excludes_zero": false,
+     "t_hi": 0.017889716818517823,
+     "t_lo": -0.05368039852637278,
+     "t_width_pp": 7.157011534489061
+    }
+   },
+   "sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "span": {
+    "crit": 2.200985160082949,
+    "pct_excludes_zero": false,
+    "pct_hi": 0.023079653650126215,
+    "pct_lo": -0.0273968342931849,
+    "pct_width_pp": 5.047648794331111,
+    "se": 0.013065627653190253,
+    "share_negative": 0.627,
+    "t_excludes_zero": false,
+    "t_hi": 0.02521531877676255,
+    "t_lo": -0.03229918636691976,
+    "t_width_pp": 5.751450514368231
+   }
+  },
+  "reselect": {
+   "n_clusters": 12,
+   "posts": {
+    "12": {
+     "crit": 2.200985160082949,
+     "pct_excludes_zero": true,
+     "pct_hi": -0.010076763820897798,
+     "pct_lo": -0.08258807202210101,
+     "pct_width_pp": 7.251130820120322,
+     "se": 0.018490220736016128,
+     "share_negative": 0.99575,
+     "t_excludes_zero": true,
+     "t_hi": -0.005156057454130489,
+     "t_lo": -0.08654946034738953,
+     "t_width_pp": 8.139340289325904
+    },
+    "4": {
+     "crit": 2.200985160082949,
+     "pct_excludes_zero": false,
+     "pct_hi": 0.010235549533049245,
+     "pct_lo": -0.038159669182513546,
+     "pct_width_pp": 4.839521871556279,
+     "se": 0.012336357586583456,
+     "share_negative": 0.86,
+     "t_excludes_zero": false,
+     "t_hi": 0.013954976384314111,
+     "t_lo": -0.04034930357077967,
+     "t_width_pp": 5.430427995509378
+    },
+    "8": {
+     "crit": 2.200985160082949,
+     "pct_excludes_zero": true,
+     "pct_hi": -0.010734978099457617,
+     "pct_lo": -0.05678398602360668,
+     "pct_width_pp": 4.604900792414907,
+     "se": 0.01183895705223431,
+     "share_negative": 0.9995,
+     "t_excludes_zero": true,
+     "t_hi": -0.007448581807574153,
+     "t_lo": -0.05956331937322833,
+     "t_width_pp": 5.211473756565417
+    }
+   },
+   "sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "span": {
+    "crit": 2.200985160082949,
+    "pct_excludes_zero": true,
+    "pct_hi": -0.008915900030794673,
+    "pct_lo": -0.0548001484689727,
+    "pct_width_pp": 4.588424843817802,
+    "se": 0.011909589743222518,
+    "share_negative": 0.996,
+    "t_excludes_zero": true,
+    "t_hi": -0.0064427650200183685,
+    "t_lo": -0.05886842559503609,
+    "t_width_pp": 5.242566057501772
+   }
+  }
+ },
+ "cluster_by_date": {
+  "frozen": {
+   "n_clusters": 8,
+   "posts": {
+    "12": {
+     "crit": 2.3646242515927844,
+     "pct_excludes_zero": false,
+     "pct_hi": 0.03339495094561316,
+     "pct_lo": -0.06602550285880898,
+     "pct_width_pp": 9.942045380442213,
+     "se": 0.025413224210211853,
+     "share_negative": 0.75,
+     "t_excludes_zero": false,
+     "t_hi": 0.04335362889032045,
+     "t_lo": -0.07683182366694322,
+     "t_width_pp": 12.018545255726366
+    },
+    "4": {
+     "crit": 2.3646242515927844,
+     "pct_excludes_zero": false,
+     "pct_hi": 0.011983078867259911,
+     "pct_lo": -0.043305247190077896,
+     "pct_width_pp": 5.528832605733781,
+     "se": 0.014330914564939923,
+     "share_negative": 0.8135,
+     "t_excludes_zero": false,
+     "t_hi": 0.020690064534528423,
+     "t_lo": -0.04708439172099398,
+     "t_width_pp": 6.77744562555224
+    },
+    "8": {
+     "crit": 2.3646242515927844,
+     "pct_excludes_zero": false,
+     "pct_hi": 0.01636071603494853,
+     "pct_lo": -0.05956077031678459,
+     "pct_width_pp": 7.592148635173313,
+     "se": 0.019491897913170558,
+     "share_negative": 0.81775,
+     "t_excludes_zero": false,
+     "t_hi": 0.028195673661126408,
+     "t_lo": -0.06398635536898137,
+     "t_width_pp": 9.218202903010777
+    }
+   },
+   "sizes": [
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "span": {
+    "crit": 2.3646242515927844,
+    "pct_excludes_zero": false,
+    "pct_hi": 0.025901886018439593,
+    "pct_lo": -0.02829456569666984,
+    "pct_width_pp": 5.419645171510943,
+    "se": 0.01367859677951238,
+    "share_negative": 0.63275,
+    "t_excludes_zero": false,
+    "t_hi": 0.02880280787751533,
+    "t_lo": -0.03588667546767254,
+    "t_width_pp": 6.468948334518787
+   }
+  },
+  "reselect": {
+   "n_clusters": 8,
+   "posts": {
+    "12": {
+     "crit": 2.3646242515927844,
+     "pct_excludes_zero": true,
+     "pct_hi": -0.0028116093586790783,
+     "pct_lo": -0.09158013899529535,
+     "pct_width_pp": 8.876852963661626,
+     "se": 0.022555061589178613,
+     "share_negative": 0.98225,
+     "t_excludes_zero": false,
+     "t_hi": 0.007481486729180628,
+     "t_lo": -0.09918700453070065,
+     "t_width_pp": 10.666849125988128
+    },
+    "4": {
+     "crit": 2.3646242515927844,
+     "pct_excludes_zero": false,
+     "pct_hi": 0.012945926389899212,
+     "pct_lo": -0.043172508570919775,
+     "pct_width_pp": 5.611843496081899,
+     "se": 0.014521774939502914,
+     "share_negative": 0.82175,
+     "t_excludes_zero": false,
+     "t_hi": 0.02114137760488815,
+     "t_lo": -0.04753570479135371,
+     "t_width_pp": 6.867708239624186
+    },
+    "8": {
+     "crit": 2.3646242515927844,
+     "pct_excludes_zero": true,
+     "pct_hi": -0.0067589587690063185,
+     "pct_lo": -0.06268398447638,
+     "pct_width_pp": 5.592502570737368,
+     "se": 0.014010974093989196,
+     "share_negative": 0.99425,
+     "t_excludes_zero": true,
+     "t_hi": -0.00037526145931614935,
+     "t_lo": -0.06663663972148634,
+     "t_width_pp": 6.626137826217018
+    }
+   },
+   "sizes": [
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "span": {
+    "crit": 2.3646242515927844,
+    "pct_excludes_zero": true,
+    "pct_hi": -0.007165003447418468,
+    "pct_lo": -0.052058592250639364,
+    "pct_width_pp": 4.48935888032209,
+    "se": 0.011247667144951743,
+    "share_negative": 0.9915,
+    "t_excludes_zero": true,
+    "t_hi": -0.006059088802730962,
+    "t_lo": -0.059252101812323495,
+    "t_width_pp": 5.319301300959253
+   }
+  }
+ },
+ "date_groups": {
+  "101": [
+   "agora",
+   "oxygen"
+  ],
+  "108": [
+   "abraxas",
+   "middleearth"
+  ],
+  "118": [
+   "nucleus"
+  ],
+  "48": [
+   "pandora"
+  ],
+  "52": [
+   "thepiratemarket"
+  ],
+  "57": [
+   "alpaca",
+   "cloudnine",
+   "silkroad2"
+  ],
+  "59": [
+   "andromeda"
+  ],
+  "77": [
+   "evolution"
+  ]
+ },
+ "elapsed_note": "runtime is printed, never stored",
+ "pairing_note": "the UNPAIRED unit bootstrap draws each horizon from its own resample, so it is WIDER for the span (which is paired by design) and narrower for a single horizon. It is not a conservative alternative; it answers a different question, and quoting it as one would be a strawman. The paired variant is the one that can be quoted",
+ "params": {
+  "POSTS": [
+   4,
+   8,
+   12
+  ],
+  "PRE": 8,
+  "n_date_clusters": 8,
+  "n_events": 12,
+  "reps": 4000,
+  "seed": 20261026,
+  "t975_df11": 2.200985160082949,
+  "t975_df7": 2.3646242515927844
+ },
+ "per_event_diffs_pp": {
+  "frozen": {
+   "12": {
+    "abraxas": -11.281329507930494,
+    "agora": -0.9009934909215478,
+    "alpaca": -2.5,
+    "andromeda": 16.47887323943662,
+    "cloudnine": 1.805929919137466,
+    "evolution": -10.994704849043965,
+    "middleearth": -10.408373875866136,
+    "nucleus": 2.6740524781341106,
+    "oxygen": 3.3808049535603715,
+    "pandora": -7.729468599033816,
+    "silkroad2": 1.562205910031997,
+    "thepiratemarket": -2.1739130434782608
+   },
+   "4": {
+    "abraxas": -8.680974198215576,
+    "agora": 3.793139401522261,
+    "alpaca": -2.5,
+    "andromeda": 6.220657276995305,
+    "cloudnine": 1.7665913892328986,
+    "evolution": -7.034912926992631,
+    "middleearth": -6.290458767238953,
+    "nucleus": -2.392252582095962,
+    "oxygen": -0.2352941176470588,
+    "pandora": -1.4492753623188406,
+    "silkroad2": 0.9661835748792258,
+    "thepiratemarket": 0.0
+   },
+   "8": {
+    "abraxas": -10.822281167108752,
+    "agora": 0.5435651478816944,
+    "alpaca": -2.5,
+    "andromeda": 6.978233034571063,
+    "cloudnine": 1.805929919137466,
+    "evolution": -10.688769814690781,
+    "middleearth": -9.169983782986879,
+    "nucleus": 2.965597667638484,
+    "oxygen": 3.406649616368286,
+    "pandora": -3.3816425120772946,
+    "silkroad2": 1.562205910031997,
+    "thepiratemarket": -2.1739130434782608
+   }
+  },
+  "reselect": {
+   "12": {
+    "abraxas": -15.664409021459031,
+    "agora": -5.425685425685425,
+    "alpaca": -2.5,
+    "andromeda": 6.503496503496503,
+    "cloudnine": -3.2214765100671143,
+    "evolution": -10.994704849043965,
+    "middleearth": -14.105793450881613,
+    "nucleus": 2.6740524781341106,
+    "oxygen": 1.3157894736842104,
+    "pandora": -7.792207792207792,
+    "silkroad2": -3.994190268700072,
+    "thepiratemarket": -1.8181818181818181
+   },
+   "4": {
+    "abraxas": -8.680974198215576,
+    "agora": 3.793139401522261,
+    "alpaca": -2.5,
+    "andromeda": 6.220657276995305,
+    "cloudnine": 1.7665913892328986,
+    "evolution": -7.034912926992631,
+    "middleearth": -6.290458767238953,
+    "nucleus": -2.392252582095962,
+    "oxygen": -0.2352941176470588,
+    "pandora": -1.4492753623188406,
+    "silkroad2": 0.9661835748792258,
+    "thepiratemarket": 0.0
+   },
+   "8": {
+    "abraxas": -9.306026075351607,
+    "agora": -2.2330520803025897,
+    "alpaca": -2.5,
+    "andromeda": -2.097902097902098,
+    "cloudnine": -3.2214765100671143,
+    "evolution": -10.688769814690781,
+    "middleearth": -8.179012345679013,
+    "nucleus": 2.965597667638484,
+    "oxygen": 2.2439949431099873,
+    "pandora": -1.3781223083548664,
+    "silkroad2": -3.994190268700072,
+    "thepiratemarket": -1.8181818181818181
+   }
+  }
+ },
+ "point_estimates_pp": {
+  "frozen": {
+   "12": -1.6739097388311381,
+   "4": -1.319716359323278,
+   "8": -1.789534085392748
+  },
+  "reselect": {
+   "12": -4.585275890076001,
+   "4": -1.319716359323278,
+   "8": -3.350595059040124
+  }
+ },
+ "question": "how uncertain is the reselect trajectory once the events are resampled as clusters instead of units",
+ "reading_contract": {
+  "design_vs_sampling": "a tight interval here is sampling variability over events and says NOTHING about the design choice of redrawing S as the window grows: that comparison is g70's frozen-destination-set arm, whose span is -0.3542 pp. An effect can have a narrow interval and still be mostly the screen being redrawn",
+  "must_not_say": "a level interval that includes zero may not be described as 'the deficit is present at this horizon'; the span and the level are separate claims and the span is the one that survives",
+  "must_quote": "the t(G-1) interval, not the percentile one: 12 clusters undercover"
+ },
+ "span_4_to_12_pp": {
+  "frozen": -0.35419337950786023,
+  "reselect": -3.2655595307527228
+ },
+ "stage": "G73",
+ "unit_bootstrap_paired_reselect": {
+  "pairing": "one unit set per event per replicate, read at all three horizons",
+  "posts": {
+   "12": {
+    "crit": 2.200985160082949,
+    "pct_excludes_zero": true,
+    "pct_hi": -0.017838793725794163,
+    "pct_lo": -0.07279607343080989,
+    "pct_width_pp": 5.495727970501572,
+    "se": 0.013944102779944189,
+    "share_negative": 0.99675,
+    "t_excludes_zero": true,
+    "t_hi": -0.015161995611431455,
+    "t_lo": -0.07654352219008856,
+    "t_width_pp": 6.13815265786571
+   },
+   "4": {
+    "crit": 2.200985160082949,
+    "pct_excludes_zero": false,
+    "pct_hi": 0.011234880157115703,
+    "pct_lo": -0.03389207619783626,
+    "pct_width_pp": 4.512695635495197,
+    "se": 0.011493151818062153,
+    "share_negative": 0.87125,
+    "t_excludes_zero": false,
+    "t_hi": 0.012099093000902382,
+    "t_lo": -0.03849342018736794,
+    "t_width_pp": 5.059251318827032
+   },
+   "8": {
+    "crit": 2.200985160082949,
+    "pct_excludes_zero": true,
+    "pct_hi": -0.014381847572588783,
+    "pct_lo": -0.05241385069993262,
+    "pct_width_pp": 3.803200312734383,
+    "se": 0.009648055674110348,
+    "share_negative": 0.99975,
+    "t_excludes_zero": true,
+    "t_hi": -0.012270723228030272,
+    "t_lo": -0.05474117795277221,
+    "t_width_pp": 4.247045472474194
+   }
+  },
+  "span": {
+   "crit": 2.200985160082949,
+   "pct_excludes_zero": false,
+   "pct_hi": 0.00035803506876169386,
+   "pct_lo": -0.06772874601006364,
+   "pct_width_pp": 6.808678107882534,
+   "se": 0.016958015119599414,
+   "share_negative": 0.974,
+   "t_excludes_zero": false,
+   "t_hi": 0.004668744315173355,
+   "t_lo": -0.0699799349302278,
+   "t_width_pp": 7.464867924540116
+  }
+ },
+ "unit_bootstrap_reselect": {
+  "pairing": "DESTROYED: each horizon drawn from its own resample",
+  "posts": {
+   "12": {
+    "crit": 2.200985160082949,
+    "pct_excludes_zero": true,
+    "pct_hi": -0.01756639868339578,
+    "pct_lo": -0.07289958921344358,
+    "pct_width_pp": 5.53331905300478,
+    "se": 0.01412019996269834,
+    "share_negative": 0.999,
+    "t_excludes_zero": true,
+    "t_hi": -0.014774408325457157,
+    "t_lo": -0.07693110947606285,
+    "t_width_pp": 6.215670115060569
+   },
+   "4": {
+    "crit": 2.200985160082949,
+    "pct_excludes_zero": false,
+    "pct_hi": 0.009713565200534385,
+    "pct_lo": -0.03314565536517734,
+    "pct_width_pp": 4.285922056571173,
+    "se": 0.011271307326651174,
+    "share_negative": 0.879,
+    "t_excludes_zero": false,
+    "t_hi": 0.01161081656746067,
+    "t_lo": -0.038005143753926225,
+    "t_width_pp": 4.96159603213869
+   },
+   "8": {
+    "crit": 2.200985160082949,
+    "pct_excludes_zero": true,
+    "pct_hi": -0.014711010813539751,
+    "pct_lo": -0.05219736073809519,
+    "pct_width_pp": 3.7486349924555435,
+    "se": 0.009647337192240606,
+    "share_negative": 1.0,
+    "t_excludes_zero": true,
+    "t_hi": -0.012272304595963363,
+    "t_lo": -0.05473959658483912,
+    "t_width_pp": 4.246729198887576
+   }
+  },
+  "span": {
+   "crit": 2.200985160082949,
+   "pct_excludes_zero": false,
+   "pct_hi": 0.002763218069008224,
+   "pct_lo": -0.06910180730546862,
+   "pct_width_pp": 7.186502537447685,
+   "se": 0.01820565480578203,
+   "share_negative": 0.96675,
+   "t_excludes_zero": false,
+   "t_hi": 0.007414780749591836,
+   "t_lo": -0.07272597136464629,
+   "t_width_pp": 8.014075211423814
+  }
+ },
+ "width_ratios": {
+  "cluster_over_date_cluster_pct": 1.0220668398621329,
+  "cluster_over_unit_paired_pct": 0.6739083227485372,
+  "cluster_over_unit_unpaired_pct": 0.6384781498243789
+ }
+}

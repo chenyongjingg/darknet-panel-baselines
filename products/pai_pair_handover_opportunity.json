@@ -1,0 +1,31 @@
+{
+  "src_sha16": "55f789912350963e",
+  "calendar_sha16": "b98c4407f1f62ffc",
+  "whitelist_markets": 26,
+  "valhalla_launch": "2015-11-27",
+  "silkkitie_end": "2015-12-06",
+  "cross_market_hashes": 5922,
+  "silkkitie_last_before_valhalla_launch": 5720,
+  "silkkitie_last_on_or_after_launch": 202,
+  "DEPRECATED_slots_with_real_opportunity": 0,
+  "deprecated": {
+    "slots_with_real_opportunity": "circular: it is the event condition (0 whenever the event is 0); use silkkitie_last_on_or_after_launch as the risk set"
+  },
+  "reverse_cases": 0,
+  "silkkitie_last_date_min": "2015-06-22",
+  "silkkitie_last_date_median": "2015-11-26",
+  "silkkitie_last_date_p90": "2015-11-26",
+  "silkkitie_last_date_max": "2015-12-06",
+  "valhalla_first_date_min": "2015-11-27",
+  "valhalla_first_date_median": "2015-11-27",
+  "valhalla_first_date_p90": "2015-11-27",
+  "valhalla_first_date_max": "2016-04-17",
+  "gap_s_last_to_v_first_days_median": 1.0,
+  "gap_s_last_to_v_first_days_p10": 1,
+  "gap_s_last_to_v_first_days_p90": 1,
+  "gates": {
+    "cross": 5922,
+    "launch": "2015-11-27"
+  },
+  "gate_ok": true
+}

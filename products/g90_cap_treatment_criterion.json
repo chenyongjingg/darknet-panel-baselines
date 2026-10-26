@@ -1,0 +1,545 @@
+{
+ "stage": "G90",
+ "question": "does the continuity share depend on the 28 page-capped market-weeks, and by how much (a number for Section 6's 'nothing here estimates by how much')",
+ "inputs": {
+  "merged": "fcb14b9b497c2d93",
+  "g9d": "230a8d4a3cf86495",
+  "g19": "3f05a10fa31aa764",
+  "g18": "a7639adac8643cf2",
+  "g44": "57294670d23b556a",
+  "events": "events.csv",
+  "panel": "weekly_market.csv.gz"
+ },
+ "params": {
+  "PRE": 8,
+  "POST": 4,
+  "reps": 200,
+  "base_seed": 20261026,
+  "n_capped_cells": 28,
+  "survivor_set": "fixed at the real date in every arm (drop the cells, keep the mask)"
+ },
+ "calibration": {
+  "keep_ratio": 0.9120109394630586,
+  "g19_real_fixed_S_ratio": 0.9120109394630586,
+  "exact": true
+ },
+ "pooled": {
+  "keep": {
+   "retained": 0.36032309987557953,
+   "new": 0.03649397427848108,
+   "union": 0.3968170741540606,
+   "ratio": 0.9120109394630586
+  },
+  "drop28": {
+   "retained": 0.32496903917380593,
+   "new": 0.02904336982401606,
+   "union": 0.354012408997822,
+   "ratio": 0.9137919419340195
+  },
+  "cap_contribution_pp": {
+   "retained": 3.5354060701773604,
+   "new": 0.7450604454465017,
+   "union": 4.28046651562386,
+   "ratio": -0.1781002470960913
+  }
+ },
+ "n_events": 12,
+ "n_events_touched_by_cap": 5,
+ "per_event": [
+  {
+   "market": "pandora",
+   "t": 48,
+   "n_survivors": 7,
+   "capped_cells_touching": [],
+   "n_capped_cells_touching": 0,
+   "support_loss": {
+    "pre_obs": 24730,
+    "post_obs": 11654,
+    "pre_lost_frac": 0.0,
+    "post_lost_frac": 0.0
+   },
+   "keep": {
+    "n_vpre": 405,
+    "retained": 0.454320987654321,
+    "new": 0.007407407407407408,
+    "union": 0.4617283950617284,
+    "ratio": 0.983957219251337
+   },
+   "drop": {
+    "n_vpre": 405,
+    "retained": 0.454320987654321,
+    "new": 0.007407407407407408,
+    "union": 0.4617283950617284,
+    "ratio": 0.983957219251337
+   },
+   "d_ratio": 0.0,
+   "d_new": 0.0,
+   "d_retained": 0.0,
+   "d_n_vpre": 0
+  },
+  {
+   "market": "thepiratemarket",
+   "t": 52,
+   "n_survivors": 11,
+   "capped_cells_touching": [],
+   "n_capped_cells_touching": 0,
+   "support_loss": {
+    "pre_obs": 34132,
+    "post_obs": 12521,
+    "pre_lost_frac": 0.0,
+    "post_lost_frac": 0.0
+   },
+   "keep": {
+    "n_vpre": 77,
+    "retained": 0.37662337662337664,
+    "new": 0.0,
+    "union": 0.37662337662337664,
+    "ratio": 1.0
+   },
+   "drop": {
+    "n_vpre": 77,
+    "retained": 0.37662337662337664,
+    "new": 0.0,
+    "union": 0.37662337662337664,
+    "ratio": 1.0
+   },
+   "d_ratio": 0.0,
+   "d_new": 0.0,
+   "d_retained": 0.0,
+   "d_n_vpre": 0
+  },
+  {
+   "market": "silkroad2",
+   "t": 57,
+   "n_survivors": 6,
+   "capped_cells_touching": [],
+   "n_capped_cells_touching": 0,
+   "support_loss": {
+    "pre_obs": 23371,
+    "post_obs": 12953,
+    "pre_lost_frac": 0.0,
+    "post_lost_frac": 0.0
+   },
+   "keep": {
+    "n_vpre": 815,
+    "retained": 0.36441717791411044,
+    "new": 0.06012269938650307,
+    "union": 0.4245398773006135,
+    "ratio": 0.8583815028901735
+   },
+   "drop": {
+    "n_vpre": 815,
+    "retained": 0.36441717791411044,
+    "new": 0.06012269938650307,
+    "union": 0.4245398773006135,
+    "ratio": 0.8583815028901735
+   },
+   "d_ratio": 0.0,
+   "d_new": 0.0,
+   "d_retained": 0.0,
+   "d_n_vpre": 0
+  },
+  {
+   "market": "cloudnine",
+   "t": 57,
+   "n_survivors": 6,
+   "capped_cells_touching": [],
+   "n_capped_cells_touching": 0,
+   "support_loss": {
+    "pre_obs": 23358,
+    "post_obs": 12953,
+    "pre_lost_frac": 0.0,
+    "post_lost_frac": 0.0
+   },
+   "keep": {
+    "n_vpre": 1013,
+    "retained": 0.22902270483711748,
+    "new": 0.02665350444225074,
+    "union": 0.25567620927936824,
+    "ratio": 0.8957528957528957
+   },
+   "drop": {
+    "n_vpre": 1013,
+    "retained": 0.22902270483711748,
+    "new": 0.02665350444225074,
+    "union": 0.25567620927936824,
+    "ratio": 0.8957528957528957
+   },
+   "d_ratio": 0.0,
+   "d_new": 0.0,
+   "d_retained": 0.0,
+   "d_n_vpre": 0
+  },
+  {
+   "market": "alpaca",
+   "t": 57,
+   "n_survivors": 6,
+   "capped_cells_touching": [],
+   "n_capped_cells_touching": 0,
+   "support_loss": {
+    "pre_obs": 19739,
+    "post_obs": 12953,
+    "pre_lost_frac": 0.0,
+    "post_lost_frac": 0.0
+   },
+   "keep": {
+    "n_vpre": 164,
+    "retained": 0.25,
+    "new": 0.018292682926829267,
+    "union": 0.2682926829268293,
+    "ratio": 0.9318181818181818
+   },
+   "drop": {
+    "n_vpre": 164,
+    "retained": 0.25,
+    "new": 0.018292682926829267,
+    "union": 0.2682926829268293,
+    "ratio": 0.9318181818181818
+   },
+   "d_ratio": 0.0,
+   "d_new": 0.0,
+   "d_retained": 0.0,
+   "d_n_vpre": 0
+  },
+  {
+   "market": "andromeda",
+   "t": 59,
+   "n_survivors": 6,
+   "capped_cells_touching": [],
+   "n_capped_cells_touching": 0,
+   "support_loss": {
+    "pre_obs": 21012,
+    "post_obs": 13246,
+    "pre_lost_frac": 0.0,
+    "post_lost_frac": 0.0
+   },
+   "keep": {
+    "n_vpre": 236,
+    "retained": 0.3474576271186441,
+    "new": 0.012711864406779662,
+    "union": 0.3601694915254237,
+    "ratio": 0.9647058823529412
+   },
+   "drop": {
+    "n_vpre": 236,
+    "retained": 0.3474576271186441,
+    "new": 0.012711864406779662,
+    "union": 0.3601694915254237,
+    "ratio": 0.9647058823529412
+   },
+   "d_ratio": 0.0,
+   "d_new": 0.0,
+   "d_retained": 0.0,
+   "d_n_vpre": 0
+  },
+  {
+   "market": "evolution",
+   "t": 77,
+   "n_survivors": 6,
+   "capped_cells_touching": [
+    "evolution|71",
+    "evolution|72",
+    "evolution|73",
+    "evolution|74",
+    "evolution|75"
+   ],
+   "n_capped_cells_touching": 5,
+   "support_loss": {
+    "pre_obs": 22875,
+    "post_obs": 14214,
+    "pre_lost_frac": 0.4115409836065574,
+    "post_lost_frac": 0.0
+   },
+   "keep": {
+    "n_vpre": 2265,
+    "retained": 0.3130242825607064,
+    "new": 0.10816777041942605,
+    "union": 0.42119205298013246,
+    "ratio": 0.7431865828092243
+   },
+   "drop": {
+    "n_vpre": 1994,
+    "retained": 0.32698094282848544,
+    "new": 0.10932798395185557,
+    "union": 0.436308926780341,
+    "ratio": 0.7494252873563219
+   },
+   "d_ratio": -0.006238704547097518,
+   "d_new": -0.0011602135324295243,
+   "d_retained": -0.01395666026777903,
+   "d_n_vpre": 271
+  },
+  {
+   "market": "agora",
+   "t": 101,
+   "n_survivors": 6,
+   "capped_cells_touching": [
+    "agora|97",
+    "agora|98"
+   ],
+   "n_capped_cells_touching": 2,
+   "support_loss": {
+    "pre_obs": 40441,
+    "post_obs": 4146,
+    "pre_lost_frac": 0.060854083726910806,
+    "post_lost_frac": 0.0
+   },
+   "keep": {
+    "n_vpre": 1580,
+    "retained": 0.5164556962025316,
+    "new": 0.015189873417721518,
+    "union": 0.5316455696202531,
+    "ratio": 0.9714285714285714
+   },
+   "drop": {
+    "n_vpre": 1574,
+    "retained": 0.5184243964421855,
+    "new": 0.014612452350698857,
+    "union": 0.5330368487928844,
+    "ratio": 0.9725864123957092
+   },
+   "d_ratio": -0.0011578409671377798,
+   "d_new": 0.0005774210670226616,
+   "d_retained": -0.0019687002396538977,
+   "d_n_vpre": 6
+  },
+  {
+   "market": "middleearth",
+   "t": 108,
+   "n_survivors": 4,
+   "capped_cells_touching": [
+    "alphabay|110",
+    "alphabay|111",
+    "alphabay|112"
+   ],
+   "n_capped_cells_touching": 3,
+   "support_loss": {
+    "pre_obs": 13654,
+    "post_obs": 10186,
+    "pre_lost_frac": 0.0,
+    "post_lost_frac": 0.6377380718633419
+   },
+   "keep": {
+    "n_vpre": 636,
+    "retained": 0.4559748427672956,
+    "new": 0.055031446540880505,
+    "union": 0.5110062893081762,
+    "ratio": 0.8923076923076924
+   },
+   "drop": {
+    "n_vpre": 636,
+    "retained": 0.32547169811320753,
+    "new": 0.026729559748427674,
+    "union": 0.3522012578616352,
+    "ratio": 0.9241071428571429
+   },
+   "d_ratio": -0.03179945054945055,
+   "d_new": 0.02830188679245283,
+   "d_retained": 0.13050314465408808,
+   "d_n_vpre": 0
+  },
+  {
+   "market": "nucleus",
+   "t": 118,
+   "n_survivors": 5,
+   "capped_cells_touching": [
+    "alphabay|110",
+    "alphabay|111",
+    "alphabay|112",
+    "alphabay|113",
+    "alphabay|114",
+    "alphabay|117",
+    "alphabay|118",
+    "alphabay|119",
+    "alphabay|120",
+    "alphabay|121",
+    "alphabay|122"
+   ],
+   "n_capped_cells_touching": 11,
+   "support_loss": {
+    "pre_obs": 26804,
+    "post_obs": 11198,
+    "pre_lost_frac": 0.4750037307864498,
+    "post_lost_frac": 0.674941953920343
+   },
+   "keep": {
+    "n_vpre": 1202,
+    "retained": 0.3178036605657238,
+    "new": 0.03577371048252912,
+    "union": 0.35357737104825293,
+    "ratio": 0.8988235294117647
+   },
+   "drop": {
+    "n_vpre": 1202,
+    "retained": 0.129783693843594,
+    "new": 0.029118136439267885,
+    "union": 0.1589018302828619,
+    "ratio": 0.8167539267015707
+   },
+   "d_ratio": 0.08206960271019403,
+   "d_new": 0.006655574043261236,
+   "d_retained": 0.18801996672212978,
+   "d_n_vpre": 0
+  },
+  {
+   "market": "abraxas",
+   "t": 108,
+   "n_survivors": 4,
+   "capped_cells_touching": [
+    "alphabay|110",
+    "alphabay|111",
+    "alphabay|112"
+   ],
+   "n_capped_cells_touching": 3,
+   "support_loss": {
+    "pre_obs": 15392,
+    "post_obs": 10186,
+    "pre_lost_frac": 0.0,
+    "post_lost_frac": 0.6377380718633419
+   },
+   "keep": {
+    "n_vpre": 1381,
+    "retained": 0.4112961622013034,
+    "new": 0.09703113685734975,
+    "union": 0.5083272990586531,
+    "ratio": 0.8091168091168092
+   },
+   "drop": {
+    "n_vpre": 1381,
+    "retained": 0.28964518464880523,
+    "new": 0.041998551774076756,
+    "union": 0.331643736422882,
+    "ratio": 0.8733624454148472
+   },
+   "d_ratio": -0.06424563629803803,
+   "d_new": 0.055032585083272995,
+   "d_retained": 0.12165097755249815,
+   "d_n_vpre": 0
+  },
+  {
+   "market": "oxygen",
+   "t": 101,
+   "n_survivors": 6,
+   "capped_cells_touching": [],
+   "n_capped_cells_touching": 0,
+   "support_loss": {
+    "pre_obs": 35554,
+    "post_obs": 4146,
+    "pre_lost_frac": 0.0,
+    "post_lost_frac": 0.0
+   },
+   "keep": {
+    "n_vpre": 647,
+    "retained": 0.2874806800618238,
+    "new": 0.0015455950540958269,
+    "union": 0.2890262751159196,
+    "ratio": 0.9946524064171123
+   },
+   "drop": {
+    "n_vpre": 647,
+    "retained": 0.2874806800618238,
+    "new": 0.0015455950540958269,
+    "union": 0.2890262751159196,
+    "ratio": 0.9946524064171123
+   },
+   "d_ratio": 0.0,
+   "d_new": 0.0,
+   "d_retained": 0.0,
+   "d_n_vpre": 0
+  }
+ ],
+ "placebo": {
+  "random28": {
+   "n": 200,
+   "min": 0.8953706601676096,
+   "p05": 0.9027678240437086,
+   "p50": 0.9112381593175629,
+   "mean": 0.9100164044444758,
+   "p95": 0.9124789922459863,
+   "max": 0.9143579179861234,
+   "sd": 0.003241789201400448,
+   "n_ge_ref": 53,
+   "p_at_least_ref": 0.265
+  },
+  "same_week28": {
+   "n": 200,
+   "min": 0.9110561699134999,
+   "p05": 0.9113409214582952,
+   "p50": 0.9121642636220679,
+   "mean": 0.9123396945848726,
+   "p95": 0.9137224525071085,
+   "max": 0.9190967000191655,
+   "sd": 0.0009114600996511812,
+   "n_ge_ref": 124,
+   "p_at_least_ref": 0.62
+  },
+  "random28_unmatched": 0,
+  "same_week28_unmatched": 0
+ },
+ "zero_baseline": {
+  "source": "g30_same_unit_null.json arms.g19_range.by_key.ratio",
+  "source_sha16": "ed123a376324a7ce",
+  "object": "distribution of the 12-event mean under re-dating (same unit as the reported statistic)",
+  "p05": 0.8219675189432579,
+  "p50": 0.895736655191541,
+  "mean": 0.8887920830462175,
+  "p95": 0.9329785776924959,
+  "realised_percentile": 0.70975,
+  "width": 0.111011058749238,
+  "deprecated_ruler_not_used": {
+   "source": "g19.null_random_weeks.ratio (n=296 pooled SINGLE draws)",
+   "p05": 0.5060827250608273,
+   "p95": 0.9848484848484849,
+   "realised_percentile": 0.4527027027027027,
+   "width": 0.47876575978765756,
+   "why": "g30 names this object's percentile percentile_old_single_draw; it is the spread of one draw, not of the estimator the paper reports. Using it as the criterion's yardstick understates the instrument share by a factor of 4.31."
+  }
+ },
+ "criterion": {
+  "statement": "Delete the capped market-weeks, recompute the share, and compare the move against (i) the same-week deletion band and (ii) the width of the SAME-UNIT re-dating null -- the p05-p95 span of the 12-event mean under re-dating (g30 arms.g19_range.by_key.ratio), which is the object whose percentile the paper reports. Not the pooled single-draw spread. The share's containment transfers to another panel crawled at the same or better coverage iff the move is inside both. The threshold is panel-relative and therefore portable: it is stated as a fraction of the null width, not as a constant.",
+  "move_pp": -0.1781002470960913,
+  "move_as_fraction_of_null_width": -0.016043468921272116,
+  "same_week28_band": [
+   0.9113409214582952,
+   0.9137224525071085
+  ],
+  "verdict": "DELETION IS ONLY A CAP-CONTRIBUTION WHERE IT REMOVES A TAIL. In the 9 events where the post window survives the deletion (10% loss threshold), the cap's own contribution is -0.082 pp = 0.74% of the SAME-UNIT re-dating null width (11.10 pp). In middleearth/nucleus/abraxas the deletion removes 63.8-67.5% of the post window, so their -3.18 / +8.21 / -6.42 pp are support destruction and are NOT a cap effect; those events are excluded from the bound and must not be quoted per event. All-events pooled move (printed, not used): -0.178 pp.",
+  "same_week28_halfwidth_pp": 0.11907655244066673
+ },
+ "firing_check_from_g44": {
+  "quantity": "listing-weighted same-week multi-homing share (row 3 of Table 1)",
+  "base": 0.5396584255637941,
+  "drop_capped": 0.5841855322397191,
+  "random28_p05": 0.5215818975204429,
+  "random28_p95": 0.5326657258821085,
+  "move_pp": 4.452710667592507,
+  "falls_outside_random_band": true,
+  "random28_move_pp": {
+   "p05": -1.8076528043351137,
+   "p95": -0.6992699681685588
+  },
+  "sign_separated": true,
+  "reading": "the same deletion recipe MOVES the multi-homing share: removing the 28 capped cells RAISES it by 4.45 pp, while removing 28 random cells LOWERS it by -1.81 to -0.70 pp (relative to the same base) -- opposite signs, so the cap leaves a signature a random deletion of the same size cannot produce -> the recipe CAN fire. (Band membership is not the test: the base itself sits above the random-drop band's upper edge, so 'outside the band' would be true of the base as well.)"
+ },
+ "elapsed_s": 13.571326494216919,
+ "pooled_estimable": {
+  "n": 9,
+  "excluded_support_destroyed": [
+   "middleearth",
+   "nucleus",
+   "abraxas"
+  ],
+  "threshold_post_lost_frac": 0.1,
+  "keep_ratio": 0.9270981380800486,
+  "drop_ratio": 0.9279199764705192,
+  "cap_contribution_pp": -0.0821838390470564,
+  "as_fraction_of_null_width": 0.00740321189375383
+ },
+ "per_event_spread": {
+  "n_touched": 5,
+  "mean_abs_d_pp": 3.710224701438358,
+  "max_abs_d_pp": 8.206960271019403,
+  "sum_signed_d_pp_onevent": -2.1372029651529845,
+  "note": "the pooled move and the per-event moves are different objects: a small pooled move can be offsetting per-event reclassification, not insensitivity"
+ }
+}

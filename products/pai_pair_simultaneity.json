@@ -1,0 +1,13 @@
+{
+  "src_sha16": "55f789912350963e",
+  "cross_market_hashes": 5922,
+  "both_markets_same_day": 0,
+  "both_markets_same_day_share": 0.0,
+  "silkkitie_strictly_before_valhalla": 5922,
+  "valhalla_strictly_before_silkkitie": 0,
+  "intervals_overlap_without_same_day": 0,
+  "gates": {
+    "cross": 5922
+  },
+  "gate_ok": true
+}

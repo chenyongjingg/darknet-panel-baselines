@@ -1,0 +1,1066 @@
+{
+ "by_arm": {
+  "frozen": {
+   "every_deletion_keeps_p_lea_005": false,
+   "leave_one_out": {
+    "abraxas": {
+     "mean_pp": {
+      "12": -0.8005079416402873,
+      "4": -0.6505111012421596,
+      "8": -0.9683752597822024
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.7392578125,
+      "4": 0.591796875,
+      "8": 0.5615234375
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -1.6499652443794024,
+      "p_one_sided_negative": 0.462890625,
+      "p_two_sided": 0.92578125
+     },
+     "span_pp": -0.14999684039812766,
+     "span_shift_pp": 0.20419653910973234
+    },
+    "agora": {
+     "mean_pp": {
+      "12": -1.744174852277464,
+      "4": -1.784521428491054,
+      "8": -2.0016340156904247
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.4951171875,
+      "4": 0.19140625,
+      "8": 0.2978515625
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": 0.44381233834948874,
+      "p_one_sided_negative": 0.513671875,
+      "p_two_sided": 0.974609375
+     },
+     "span_pp": 0.040346576213589946,
+     "span_shift_pp": 0.39453995572144995
+    },
+    "alpaca": {
+     "mean_pp": {
+      "12": -1.5988106241794229,
+      "4": -1.2124178465344848,
+      "8": -1.7249462749739068
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.5322265625,
+      "4": 0.40625,
+      "8": 0.369140625
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -4.250320554094319,
+      "p_one_sided_negative": 0.40234375,
+      "p_two_sided": 0.8046875
+     },
+     "span_pp": -0.38639277764493807,
+     "span_shift_pp": -0.03219939813707806
+    },
+    "andromeda": {
+     "mean_pp": {
+      "12": -3.324162736855479,
+      "4": -2.005204871715876,
+      "8": -2.5866038235712767
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.09375,
+      "4": 0.126953125,
+      "8": 0.15625
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -14.508536516535635,
+      "p_one_sided_negative": 0.12109375,
+      "p_two_sided": 0.2421875
+     },
+     "span_pp": -1.3189578651396032,
+     "span_shift_pp": -0.9647644856317432
+    },
+    "cloudnine": {
+     "mean_pp": {
+      "12": -1.9902587986464655,
+      "4": -1.6002897910102027,
+      "8": -2.1163944494409495
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.431640625,
+      "4": 0.255859375,
+      "8": 0.2626953125
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -4.289659083998887,
+      "p_one_sided_negative": 0.40234375,
+      "p_two_sided": 0.8046875
+     },
+     "span_pp": -0.38996900763626274,
+     "span_shift_pp": -0.03577562812840274
+    },
+    "evolution": {
+     "mean_pp": {
+      "12": -0.82656472881179,
+      "4": -0.8001530349897,
+      "8": -0.9805126554565633
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.7294921875,
+      "4": 0.544921875,
+      "8": 0.5595703125
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -0.2905286320429865,
+      "p_one_sided_negative": 0.4921875,
+      "p_two_sided": 0.984375
+     },
+     "span_pp": -0.026411693822089966,
+     "span_shift_pp": 0.32778168568577004
+    },
+    "middleearth": {
+     "mean_pp": {
+      "12": -0.8798675445552289,
+      "4": -0.8678306858763981,
+      "8": -1.118584112884191
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.7158203125,
+      "4": 0.517578125,
+      "8": 0.51953125
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -0.13240544546713684,
+      "p_one_sided_negative": 0.498046875,
+      "p_two_sided": 0.99609375
+     },
+     "span_pp": -0.012036858678830753,
+     "span_shift_pp": 0.34215652082902925
+    },
+    "nucleus": {
+     "mean_pp": {
+      "12": -2.069179031282524,
+      "4": -1.2222130663439428,
+      "8": -2.221818790213769
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.4091796875,
+      "4": 0.400390625,
+      "8": 0.23046875
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -9.316625614324392,
+      "p_one_sided_negative": 0.28515625,
+      "p_two_sided": 0.5703125
+     },
+     "span_pp": -0.846965964938581,
+     "span_shift_pp": -0.492772585430721
+    },
+    "oxygen": {
+     "mean_pp": {
+      "12": -2.133429256321275,
+      "4": -1.4183001994756612,
+      "8": -2.2619144219164786
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.3916015625,
+      "4": 0.330078125,
+      "8": 0.220703125
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -7.86641962530175,
+      "p_one_sided_negative": 0.322265625,
+      "p_two_sided": 0.64453125
+     },
+     "span_pp": -0.7151290568456137,
+     "span_shift_pp": -0.36093567733775367
+    },
+    "pandora": {
+     "mean_pp": {
+      "12": -1.1234043879036215,
+      "4": -1.3079382681418628,
+      "8": -1.644796955694153
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.640625,
+      "4": 0.37109375,
+      "8": 0.3974609375
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": 2.0298726826206557,
+      "p_one_sided_negative": 0.55078125,
+      "p_two_sided": 0.900390625
+     },
+     "span_pp": 0.18453388023824124,
+     "span_shift_pp": 0.5387272597461013
+    },
+    "silkroad2": {
+     "mean_pp": {
+      "12": -1.9681020705459682,
+      "4": -1.527525444250778,
+      "8": -2.0942377213404524
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.4384765625,
+      "4": 0.287109375,
+      "8": 0.271484375
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -4.846342889247091,
+      "p_one_sided_negative": 0.388671875,
+      "p_two_sided": 0.77734375
+     },
+     "span_pp": -0.44057662629519023,
+     "span_shift_pp": -0.08638324678733023
+    },
+    "thepiratemarket": {
+     "mean_pp": {
+      "12": -1.6284548929541267,
+      "4": -1.439690573807212,
+      "8": -1.7545905437486107
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.5263671875,
+      "4": 0.3212890625,
+      "8": 0.3642578125
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -2.076407510616059,
+      "p_one_sided_negative": 0.455078125,
+      "p_two_sided": 0.91015625
+     },
+     "span_pp": -0.1887643191469146,
+     "span_shift_pp": 0.1654290603609454
+    }
+   },
+   "mean_pp": {
+    "12": -1.6739097388311377,
+    "4": -1.3197163593232777,
+    "8": -1.789534085392748
+   },
+   "ranking_by_abs_shift": [
+    {
+     "dropped": "andromeda",
+     "p_span": 0.2421875,
+     "shift_pp": -0.9647644856317432,
+     "sign_survives": true,
+     "span_pp": -1.3189578651396032
+    },
+    {
+     "dropped": "pandora",
+     "p_span": 0.900390625,
+     "shift_pp": 0.5387272597461013,
+     "sign_survives": false,
+     "span_pp": 0.18453388023824124
+    },
+    {
+     "dropped": "nucleus",
+     "p_span": 0.5703125,
+     "shift_pp": -0.492772585430721,
+     "sign_survives": true,
+     "span_pp": -0.846965964938581
+    },
+    {
+     "dropped": "agora",
+     "p_span": 0.974609375,
+     "shift_pp": 0.39453995572144995,
+     "sign_survives": false,
+     "span_pp": 0.040346576213589946
+    },
+    {
+     "dropped": "oxygen",
+     "p_span": 0.64453125,
+     "shift_pp": -0.36093567733775367,
+     "sign_survives": true,
+     "span_pp": -0.7151290568456137
+    },
+    {
+     "dropped": "middleearth",
+     "p_span": 0.99609375,
+     "shift_pp": 0.34215652082902925,
+     "sign_survives": true,
+     "span_pp": -0.012036858678830753
+    },
+    {
+     "dropped": "evolution",
+     "p_span": 0.984375,
+     "shift_pp": 0.32778168568577004,
+     "sign_survives": true,
+     "span_pp": -0.026411693822089966
+    },
+    {
+     "dropped": "abraxas",
+     "p_span": 0.92578125,
+     "shift_pp": 0.20419653910973234,
+     "sign_survives": true,
+     "span_pp": -0.14999684039812766
+    },
+    {
+     "dropped": "thepiratemarket",
+     "p_span": 0.91015625,
+     "shift_pp": 0.1654290603609454,
+     "sign_survives": true,
+     "span_pp": -0.1887643191469146
+    },
+    {
+     "dropped": "silkroad2",
+     "p_span": 0.77734375,
+     "shift_pp": -0.08638324678733023,
+     "sign_survives": true,
+     "span_pp": -0.44057662629519023
+    },
+    {
+     "dropped": "cloudnine",
+     "p_span": 0.8046875,
+     "shift_pp": -0.03577562812840274,
+     "sign_survives": true,
+     "span_pp": -0.38996900763626274
+    },
+    {
+     "dropped": "alpaca",
+     "p_span": 0.8046875,
+     "shift_pp": -0.03219939813707806,
+     "sign_survives": true,
+     "span_pp": -0.38639277764493807
+    }
+   ],
+   "signflip_full": {
+    "n_patterns": 4096,
+    "observed_sum_pp": -4.250320554094319,
+    "p_one_sided_negative": 0.40234375,
+    "p_two_sided": 0.8046875
+   },
+   "span_pp": -0.35419337950786,
+   "worst_deletion": {
+    "event": "andromeda",
+    "p_span": 0.2421875,
+    "shift_pp": -0.9647644856317432,
+    "span_pp": -1.3189578651396032
+   }
+  },
+  "reselect": {
+   "every_deletion_keeps_p_lea_005": false,
+   "leave_one_out": {
+    "abraxas": {
+     "mean_pp": {
+      "12": -3.5780819690411794,
+      "4": -0.6505111012421596,
+      "8": -2.809192239375444
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.0771484375,
+      "4": 0.591796875,
+      "8": 0.03125
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -32.20327954578922,
+      "p_one_sided_negative": 0.0302734375,
+      "p_two_sided": 0.060546875
+     },
+     "span_pp": -2.9275708677990195,
+     "span_shift_pp": 0.33798866295370367
+    },
+    "agora": {
+     "mean_pp": {
+      "12": -4.508875023202417,
+      "4": -1.784521428491054,
+      "8": -3.452189875288991
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.0634765625,
+      "4": 0.19140625,
+      "8": 0.0244140625
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -29.967889541824988,
+      "p_one_sided_negative": 0.0302734375,
+      "p_two_sided": 0.060546875
+     },
+     "span_pp": -2.7243535947113626,
+     "span_shift_pp": 0.5412059360413606
+    },
+    "alpaca": {
+     "mean_pp": {
+      "12": -4.774846425537455,
+      "4": -1.2124178465344848,
+      "8": -3.427921882589226
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.0498046875,
+      "4": 0.40625,
+      "8": 0.025390625
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -39.18671436903267,
+      "p_one_sided_negative": 0.01513671875,
+      "p_two_sided": 0.0302734375
+     },
+     "span_pp": -3.5624285790029706,
+     "span_shift_pp": -0.2968690482502474
+    },
+    "andromeda": {
+     "mean_pp": {
+      "12": -5.593346107673501,
+      "4": -2.005204871715876,
+      "8": -3.464476237325399
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.0087890625,
+      "4": 0.126953125,
+      "8": 0.0244140625
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -39.469553595533874,
+      "p_one_sided_negative": 0.013671875,
+      "p_two_sided": 0.02734375
+     },
+     "span_pp": -3.588141235957625,
+     "span_shift_pp": -0.3225817052049016
+    },
+    "cloudnine": {
+     "mean_pp": {
+      "12": -4.7092576518949905,
+      "4": -1.6002897910102027,
+      "8": -3.3623331089467614
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.052734375,
+      "4": 0.255859375,
+      "8": 0.0283203125
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -34.19864646973266,
+      "p_one_sided_negative": 0.025390625,
+      "p_two_sided": 0.05078125
+     },
+     "span_pp": -3.1089678608847877,
+     "span_shift_pp": 0.1565916698679355
+    },
+    "evolution": {
+     "mean_pp": {
+      "12": -4.002600530169822,
+      "4": -0.8001530349897,
+      "8": -2.6834882630718826
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.0771484375,
+      "4": 0.544921875,
+      "8": 0.03125
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -35.22692244698134,
+      "p_one_sided_negative": 0.0244140625,
+      "p_two_sided": 0.048828125
+     },
+     "span_pp": -3.202447495180122,
+     "span_shift_pp": 0.06311203557260114
+    },
+    "middleearth": {
+     "mean_pp": {
+      "12": -3.7197742936391265,
+      "4": -0.8678306858763981,
+      "8": -2.9116480329820433
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.0771484375,
+      "4": 0.517578125,
+      "8": 0.03125
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -31.371379685390014,
+      "p_one_sided_negative": 0.0302734375,
+      "p_two_sided": 0.060546875
+     },
+     "span_pp": -2.8519436077627285,
+     "span_shift_pp": 0.4136159229899947
+    },
+    "nucleus": {
+     "mean_pp": {
+      "12": -5.245214832640556,
+      "4": -1.2222130663439428,
+      "8": -3.9247943978290887
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.02734375,
+      "4": 0.400390625,
+      "8": 0.005859375
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -44.25301942926275,
+      "p_one_sided_negative": 0.0048828125,
+      "p_two_sided": 0.009765625
+     },
+     "span_pp": -4.0230017662966135,
+     "span_shift_pp": -0.7574422355438903
+    },
+    "oxygen": {
+     "mean_pp": {
+      "12": -5.121736377690565,
+      "4": -1.4183001994756612,
+      "8": -3.85919415014468
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.033203125,
+      "4": 0.330078125,
+      "8": 0.0068359375
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -40.73779796036394,
+      "p_one_sided_negative": 0.01171875,
+      "p_two_sided": 0.0234375
+     },
+     "span_pp": -3.703436178214904,
+     "span_shift_pp": -0.4378766474621809
+    },
+    "pandora": {
+     "mean_pp": {
+      "12": -4.293736626245837,
+      "4": -1.3079382681418628,
+      "8": -3.529910763647875
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.072265625,
+      "4": 0.37109375,
+      "8": 0.0234375
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -32.843781939143724,
+      "p_one_sided_negative": 0.0283203125,
+      "p_two_sided": 0.056640625
+     },
+     "span_pp": -2.985798358103975,
+     "span_shift_pp": 0.27976117264874834
+    },
+    "silkroad2": {
+     "mean_pp": {
+      "12": -4.639010946564721,
+      "4": -1.527525444250778,
+      "8": -3.2920864036164925
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.056640625,
+      "4": 0.287109375,
+      "8": 0.0302734375
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -34.226340525453374,
+      "p_one_sided_negative": 0.025390625,
+      "p_two_sided": 0.05078125
+     },
+     "span_pp": -3.1114855023139425,
+     "span_shift_pp": 0.1540740284387807
+    },
+    "thepiratemarket": {
+     "mean_pp": {
+      "12": -4.836829896611835,
+      "4": -1.439690573807212,
+      "8": -3.489905353663606
+     },
+     "n_kept": 11,
+     "p_level_by_post": {
+      "12": 0.046875,
+      "4": 0.3212890625,
+      "8": 0.0234375
+     },
+     "signflip": {
+      "n_patterns": 2048,
+      "observed_sum_pp": -37.36853255085086,
+      "p_one_sided_negative": 0.021484375,
+      "p_two_sided": 0.04296875
+     },
+     "span_pp": -3.397139322804623,
+     "span_shift_pp": -0.13157979205189996
+    }
+   },
+   "mean_pp": {
+    "12": -4.585275890076001,
+    "4": -1.3197163593232777,
+    "8": -3.350595059040124
+   },
+   "ranking_by_abs_shift": [
+    {
+     "dropped": "nucleus",
+     "p_span": 0.009765625,
+     "shift_pp": -0.7574422355438903,
+     "sign_survives": true,
+     "span_pp": -4.0230017662966135
+    },
+    {
+     "dropped": "agora",
+     "p_span": 0.060546875,
+     "shift_pp": 0.5412059360413606,
+     "sign_survives": true,
+     "span_pp": -2.7243535947113626
+    },
+    {
+     "dropped": "oxygen",
+     "p_span": 0.0234375,
+     "shift_pp": -0.4378766474621809,
+     "sign_survives": true,
+     "span_pp": -3.703436178214904
+    },
+    {
+     "dropped": "middleearth",
+     "p_span": 0.060546875,
+     "shift_pp": 0.4136159229899947,
+     "sign_survives": true,
+     "span_pp": -2.8519436077627285
+    },
+    {
+     "dropped": "abraxas",
+     "p_span": 0.060546875,
+     "shift_pp": 0.33798866295370367,
+     "sign_survives": true,
+     "span_pp": -2.9275708677990195
+    },
+    {
+     "dropped": "andromeda",
+     "p_span": 0.02734375,
+     "shift_pp": -0.3225817052049016,
+     "sign_survives": true,
+     "span_pp": -3.588141235957625
+    },
+    {
+     "dropped": "alpaca",
+     "p_span": 0.0302734375,
+     "shift_pp": -0.2968690482502474,
+     "sign_survives": true,
+     "span_pp": -3.5624285790029706
+    },
+    {
+     "dropped": "pandora",
+     "p_span": 0.056640625,
+     "shift_pp": 0.27976117264874834,
+     "sign_survives": true,
+     "span_pp": -2.985798358103975
+    },
+    {
+     "dropped": "cloudnine",
+     "p_span": 0.05078125,
+     "shift_pp": 0.1565916698679355,
+     "sign_survives": true,
+     "span_pp": -3.1089678608847877
+    },
+    {
+     "dropped": "silkroad2",
+     "p_span": 0.05078125,
+     "shift_pp": 0.1540740284387807,
+     "sign_survives": true,
+     "span_pp": -3.1114855023139425
+    },
+    {
+     "dropped": "thepiratemarket",
+     "p_span": 0.04296875,
+     "shift_pp": -0.13157979205189996,
+     "sign_survives": true,
+     "span_pp": -3.397139322804623
+    },
+    {
+     "dropped": "evolution",
+     "p_span": 0.048828125,
+     "shift_pp": 0.06311203557260114,
+     "sign_survives": true,
+     "span_pp": -3.202447495180122
+    }
+   ],
+   "signflip_full": {
+    "n_patterns": 4096,
+    "observed_sum_pp": -39.18671436903267,
+    "p_one_sided_negative": 0.01513671875,
+    "p_two_sided": 0.0302734375
+   },
+   "span_pp": -3.265559530752723,
+   "worst_deletion": {
+    "event": "nucleus",
+    "p_span": 0.009765625,
+    "shift_pp": -0.7574422355438903,
+    "span_pp": -4.0230017662966135
+   }
+  }
+ },
+ "by_date": {
+  "frozen": {
+   "n_clusters": 8,
+   "n_patterns": 256,
+   "observed_sum_pp": -4.250320554094319,
+   "p_floor_two_sided": 0.0078125,
+   "p_one_sided_negative": 0.40234375,
+   "p_two_sided": 0.8046875
+  },
+  "reselect": {
+   "n_clusters": 8,
+   "n_patterns": 256,
+   "observed_sum_pp": -39.18671436903267,
+   "p_floor_two_sided": 0.0078125,
+   "p_one_sided_negative": 0.03125,
+   "p_two_sided": 0.0625
+  }
+ },
+ "date_groups": {
+  "101": [
+   "agora",
+   "oxygen"
+  ],
+  "108": [
+   "abraxas",
+   "middleearth"
+  ],
+  "118": [
+   "nucleus"
+  ],
+  "48": [
+   "pandora"
+  ],
+  "52": [
+   "thepiratemarket"
+  ],
+  "57": [
+   "alpaca",
+   "cloudnine",
+   "silkroad2"
+  ],
+  "59": [
+   "andromeda"
+  ],
+  "77": [
+   "evolution"
+  ]
+ },
+ "events": [
+  "abraxas",
+  "agora",
+  "alpaca",
+  "andromeda",
+  "cloudnine",
+  "evolution",
+  "middleearth",
+  "nucleus",
+  "oxygen",
+  "pandora",
+  "silkroad2",
+  "thepiratemarket"
+ ],
+ "g67_level_loo_reproduced": {
+  "12": {
+   "cells": [
+    {
+     "dropped": "abraxas",
+     "mean_pp": -0.035780819690411796,
+     "p": 0.0771484375
+    },
+    {
+     "dropped": "agora",
+     "mean_pp": -0.04508875023202417,
+     "p": 0.0634765625
+    },
+    {
+     "dropped": "alpaca",
+     "mean_pp": -0.04774846425537455,
+     "p": 0.0498046875
+    },
+    {
+     "dropped": "andromeda",
+     "mean_pp": -0.055933461076735004,
+     "p": 0.0087890625
+    },
+    {
+     "dropped": "cloudnine",
+     "mean_pp": -0.04709257651894991,
+     "p": 0.052734375
+    },
+    {
+     "dropped": "evolution",
+     "mean_pp": -0.04002600530169822,
+     "p": 0.0771484375
+    },
+    {
+     "dropped": "middleearth",
+     "mean_pp": -0.03719774293639126,
+     "p": 0.0771484375
+    },
+    {
+     "dropped": "nucleus",
+     "mean_pp": -0.052452148326405566,
+     "p": 0.02734375
+    },
+    {
+     "dropped": "oxygen",
+     "mean_pp": -0.05121736377690565,
+     "p": 0.033203125
+    },
+    {
+     "dropped": "pandora",
+     "mean_pp": -0.04293736626245837,
+     "p": 0.072265625
+    },
+    {
+     "dropped": "silkroad2",
+     "mean_pp": -0.04639010946564721,
+     "p": 0.056640625
+    },
+    {
+     "dropped": "thepiratemarket",
+     "mean_pp": -0.048368298966118356,
+     "p": 0.046875
+    }
+   ],
+   "g67_loo_cross_0p05_events": [
+    "abraxas",
+    "agora",
+    "cloudnine",
+    "evolution",
+    "middleearth",
+    "pandora",
+    "silkroad2"
+   ],
+   "g67_loo_signflip_events": [],
+   "g67_p_floor": 0.000244140625,
+   "n_cells_reproduced": 12
+  },
+  "4": {
+   "cells": [
+    {
+     "dropped": "abraxas",
+     "mean_pp": -0.006505111012421596,
+     "p": 0.591796875
+    },
+    {
+     "dropped": "agora",
+     "mean_pp": -0.01784521428491054,
+     "p": 0.19140625
+    },
+    {
+     "dropped": "alpaca",
+     "mean_pp": -0.012124178465344849,
+     "p": 0.40625
+    },
+    {
+     "dropped": "andromeda",
+     "mean_pp": -0.02005204871715876,
+     "p": 0.126953125
+    },
+    {
+     "dropped": "cloudnine",
+     "mean_pp": -0.016002897910102027,
+     "p": 0.255859375
+    },
+    {
+     "dropped": "evolution",
+     "mean_pp": -0.008001530349897,
+     "p": 0.544921875
+    },
+    {
+     "dropped": "middleearth",
+     "mean_pp": -0.00867830685876398,
+     "p": 0.517578125
+    },
+    {
+     "dropped": "nucleus",
+     "mean_pp": -0.012222130663439428,
+     "p": 0.400390625
+    },
+    {
+     "dropped": "oxygen",
+     "mean_pp": -0.014183001994756613,
+     "p": 0.330078125
+    },
+    {
+     "dropped": "pandora",
+     "mean_pp": -0.013079382681418627,
+     "p": 0.37109375
+    },
+    {
+     "dropped": "silkroad2",
+     "mean_pp": -0.015275254442507779,
+     "p": 0.287109375
+    },
+    {
+     "dropped": "thepiratemarket",
+     "mean_pp": -0.01439690573807212,
+     "p": 0.3212890625
+    }
+   ],
+   "g67_loo_cross_0p05_events": [
+    "abraxas",
+    "agora",
+    "alpaca",
+    "andromeda",
+    "cloudnine",
+    "evolution",
+    "middleearth",
+    "nucleus",
+    "oxygen",
+    "pandora",
+    "silkroad2",
+    "thepiratemarket"
+   ],
+   "g67_loo_signflip_events": [],
+   "g67_p_floor": 0.000244140625,
+   "n_cells_reproduced": 12
+  },
+  "8": {
+   "cells": [
+    {
+     "dropped": "abraxas",
+     "mean_pp": -0.028091922393754437,
+     "p": 0.03125
+    },
+    {
+     "dropped": "agora",
+     "mean_pp": -0.034521898752889905,
+     "p": 0.0244140625
+    },
+    {
+     "dropped": "alpaca",
+     "mean_pp": -0.034279218825892264,
+     "p": 0.025390625
+    },
+    {
+     "dropped": "andromeda",
+     "mean_pp": -0.03464476237325399,
+     "p": 0.0244140625
+    },
+    {
+     "dropped": "cloudnine",
+     "mean_pp": -0.03362333108946761,
+     "p": 0.0283203125
+    },
+    {
+     "dropped": "evolution",
+     "mean_pp": -0.026834882630718825,
+     "p": 0.03125
+    },
+    {
+     "dropped": "middleearth",
+     "mean_pp": -0.029116480329820435,
+     "p": 0.03125
+    },
+    {
+     "dropped": "nucleus",
+     "mean_pp": -0.039247943978290886,
+     "p": 0.005859375
+    },
+    {
+     "dropped": "oxygen",
+     "mean_pp": -0.0385919415014468,
+     "p": 0.0068359375
+    },
+    {
+     "dropped": "pandora",
+     "mean_pp": -0.03529910763647875,
+     "p": 0.0234375
+    },
+    {
+     "dropped": "silkroad2",
+     "mean_pp": -0.032920864036164926,
+     "p": 0.0302734375
+    },
+    {
+     "dropped": "thepiratemarket",
+     "mean_pp": -0.03489905353663606,
+     "p": 0.0234375
+    }
+   ],
+   "g67_loo_cross_0p05_events": [],
+   "g67_loo_signflip_events": [],
+   "g67_p_floor": 0.000244140625,
+   "n_cells_reproduced": 12
+  }
+ },
+ "g70_reference_p_by_post": {
+  "12": 0.03857421875,
+  "4": 0.3212890625,
+  "8": 0.015625
+ },
+ "g74_p_by_post": {
+  "12": 0.03857421875,
+  "4": 0.3212890625,
+  "8": 0.015625
+ },
+ "n_events": 12,
+ "reading_contract": {
+  "convention": "p_two_sided",
+  "must_not_say": "that the span is robust, if any single deletion pushes its p above 0.05 under the convention identified against g70",
+  "must_quote": "span with the worst single deletion named, not instead of, the full-set span",
+  "nulls_differ": "the sign-flip p is exchangeability under no effect; g73's interval is sampling variability. Same span, two different questions"
+ },
+ "signflip_convention_identified": "p_two_sided",
+ "source": "g73_event_cluster_boot.json",
+ "source_sha16": "3b8e8467294da72c",
+ "stage": "G74",
+ "verdict": {
+  "by_date_frozen": {
+   "n_clusters": 8,
+   "n_patterns": 256,
+   "observed_sum_pp": -4.250320554094319,
+   "p_floor_two_sided": 0.0078125,
+   "p_one_sided_negative": 0.40234375,
+   "p_two_sided": 0.8046875
+  },
+  "by_date_reselect": {
+   "n_clusters": 8,
+   "n_patterns": 256,
+   "observed_sum_pp": -39.18671436903267,
+   "p_floor_two_sided": 0.0078125,
+   "p_one_sided_negative": 0.03125,
+   "p_two_sided": 0.0625
+  },
+  "convention": "p_two_sided",
+  "every_deletion_keeps_p_lea_005": false,
+  "full_p_span": 0.0302734375,
+  "full_p_span_one_sided_negative": 0.01513671875,
+  "full_p_span_two_sided": 0.0302734375,
+  "full_span_pp": -3.265559530752723,
+  "worst_deletion": {
+   "event": "nucleus",
+   "p_span": 0.009765625,
+   "shift_pp": -0.7574422355438903,
+   "span_pp": -4.0230017662966135
+  }
+ }
+}

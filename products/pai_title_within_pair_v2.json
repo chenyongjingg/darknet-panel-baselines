@@ -1,0 +1,34 @@
+{
+  "src_sha16": "55f789912350963e",
+  "rows_in_pair": 1346100,
+  "hashes_any": 28199,
+  "cross_market_hashes": 5922,
+  "cross_title_exact_eq": 5323,
+  "cross_title_exact_eq_share": 0.8988517392772712,
+  "A_within_market_change_among_cross": 1073,
+  "A_within_market_change_among_cross_share": 0.1811887875717663,
+  "A_by_market": {
+    "silkkitie": 407,
+    "valhalla": 843
+  },
+  "B_C2_first_vs_next_week_n": 32006,
+  "B_C2_first_vs_next_week_chg": 898,
+  "B_C2_share": 0.02805723926763732,
+  "B_C2_gap_days_median": 3.0,
+  "B_C2_gap_days_p90": 7,
+  "B_C1_gap_days_median": 42.0,
+  "B_C1_gap_days_p90": 137,
+  "B_C1_first_vs_last_week_n": 32006,
+  "B_C1_first_vs_last_week_chg": 3517,
+  "B_C1_share": 0.10988564644129226,
+  "C_first_date_gap_median_days": 9.0,
+  "C_first_date_gap_p90_days": 156,
+  "C_first_date_gap_max_days": 310,
+  "C_same_first_date_share": 0.0,
+  "C_same_first_week_share": 0.15130023640661938,
+  "gates": {
+    "cross": 5922,
+    "eq": 5323
+  },
+  "gate_ok": true
+}
