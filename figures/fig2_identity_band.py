@@ -15,7 +15,8 @@ The two sub-widths are taken from the product's own `share_minus_baseline_pp`
 fields rather than recomputed, so the figure cannot disagree with the product
 about which side of the point carries which distance.
 
-Output: fig2_identity_band.png and .pdf at 17.5 cm width, 300 dpi.
+Output: fig2_identity_band.png and .pdf at 17.5 cm width, 600 dpi.
+(Base type 9 pt, matching the submitted figure; the TIFF is written but not tracked.)
 """
 import io
 import json
@@ -34,7 +35,7 @@ GREY = "#8C8C8C"
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans",
-    "font.size": 8,
+    "font.size": 9,
     "axes.linewidth": 0.6,
 })
 
@@ -65,9 +66,9 @@ ax.set_axis_off()
 ax.hlines(-1.04, 0.460, 0.560, color="#444444", lw=0.5)
 for t in (0.46, 0.48, 0.50, 0.52, 0.54, 0.56):
     ax.vlines(t, -1.08, -1.04, color="#444444", lw=0.5)
-    ax.text(t, -1.12, "%.2f" % t, ha="center", va="top", fontsize=6.8,
+    ax.text(t, -1.12, "%.2f" % t, ha="center", va="top", fontsize=7.8,
             color="#333333")
-ax.text(0.564, -1.04, "share", ha="left", va="center", fontsize=6.8,
+ax.text(0.564, -1.04, "share", ha="left", va="center", fontsize=7.8,
         color="#333333")
 
 # the band
@@ -84,34 +85,40 @@ ax.annotate("", xy=(lo, 0.62), xytext=(hi, 0.62),
             arrowprops=dict(arrowstyle="<|-|>", color="#333333", lw=0.8,
                             shrinkA=0, shrinkB=0))
 ax.text((lo + hi) / 2, 0.72, "%.2f pp: the span of seven identity rules"
-        % band["width_pp"], ha="center", va="bottom", fontsize=8)
+        % band["width_pp"], ha="center", va="bottom", fontsize=9)
 
 # the two sides, below it
 ax.annotate("", xy=(lo, -0.42), xytext=(point, -0.42),
             arrowprops=dict(arrowstyle="<|-|>", color=GREY, lw=0.8,
                             shrinkA=0, shrinkB=0))
 ax.text((lo + point) / 2, -0.55, "%.2f pp\nsplitting side" % left_pp,
-        ha="center", va="top", fontsize=7.4, color="#4D4D4D")
+        ha="center", va="top", fontsize=8.4, color="#4D4D4D")
 ax.annotate("", xy=(point, -0.42), xytext=(hi, -0.42),
             arrowprops=dict(arrowstyle="<|-|>", color=GREY, lw=0.8,
                             shrinkA=0, shrinkB=0))
 ax.text((point + hi) / 2, -0.55, "%.2f pp\nmerging side" % right_pp,
-        ha="center", va="top", fontsize=7.4, color="#4D4D4D")
+        ha="center", va="top", fontsize=8.4, color="#4D4D4D")
 
 # the point, with its rule named
 ax.plot([point], [y_rule], "o", ms=7.0, mfc=BLUE, mec="white", mew=1.0, zorder=5)
 ax.annotate("0.5397\nthe printed value: strip + lower",
             xy=(point, y_rule), xytext=(point, 0.20),
-            ha="center", va="bottom", fontsize=7.6, color=BLUE)
+            ha="center", va="bottom", fontsize=8.6, color=BLUE)
 
 # the two ends, named
 ax.text(lo, -1.42, "%.4f\nraw key: every spelling\nis a different vendor"
-        % lo, ha="center", va="top", fontsize=7.2, color="#333333")
+        % lo, ha="center", va="top", fontsize=8.2, color="#333333")
 ax.text(hi, -1.42, "%.4f\nalphanumeric key: spelling\nvariants are one vendor"
-        % hi, ha="center", va="top", fontsize=7.2, color="#333333")
+        % hi, ha="center", va="top", fontsize=8.2, color="#333333")
 
+os.makedirs(HERE, exist_ok=True)
 meta = {"CreationDate": None, "ModDate": None}
-for ext in ("png", "pdf"):
+for ext in ("png", "tif", "pdf"):
     out = os.path.join(HERE, "fig2_identity_band." + ext)
-    fig.savefig(out, dpi=300, metadata=meta if ext == "pdf" else None)
+    if ext == "tif":
+        fig.savefig(out, dpi=600, pil_kwargs={"compression": "tiff_lzw"})
+    elif ext == "pdf":
+        fig.savefig(out, dpi=600, metadata=meta)
+    else:
+        fig.savefig(out, dpi=600)
     print("wrote", out, os.path.getsize(out), "B")

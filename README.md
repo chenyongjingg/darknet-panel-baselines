@@ -118,6 +118,12 @@ The others are the files the article's numbers were read from, not files rebuilt
 
 ## Version history
 
+`v1.6` syncs the Figure 2 script to the same 600 dpi, 9 pt setting as Figure 1
+and regenerates `fig2_identity_band.png`/`.pdf` from it. The new PNG is
+byte-identical to the image embedded in the manuscript. No product, check
+script or Figure 1 file changed; `python checks/verify.py` reports 34 files,
+0 mismatched.
+
 `v1.5` redraws Figure 1 with the value annotation moved clear of the legend and
 syncs the figure script to the 600 dpi, 9 pt setting used in the manuscript. No
 product or check script changed; `python checks/verify.py` reports 34 files,
