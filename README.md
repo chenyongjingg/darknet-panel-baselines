@@ -2,9 +2,9 @@
 
 Derived products, and the check scripts that write them, for the manuscript
 
-> **Baselines and detection floors: what a darknet market panel can and cannot say about displacement**
+> **Crime Displacement after Cryptomarket Closures: Baselines, Detection Floors, and the Limits of Panel Evidence**
 
-The article is under review. This repository holds the numbers it prints and the code that produced them.
+Submitted to *Social Sciences* (MDPI). This repository holds the numbers the article prints and the code that produced them.
 
 ```
 products/         14 JSON files, no raw data
@@ -12,6 +12,25 @@ checks/           14 scripts that write the products, plus verify.py
 figures/          2 scripts that draw the article's figures, and what they draw
 MANIFEST.sha256   SHA-256 and byte size of every file above
 ```
+
+## For reviewers: three checks
+
+```
+python checks/verify.py            # 34 files, 0 mismatched
+python checks/verify.py --table    # the product table below, read from disk
+python figures/fig1_continuity_null.py
+python figures/fig2_identity_band.py
+```
+
+The first command recomputes every SHA-256 in `MANIFEST.sha256`; the second prints
+the table below from the files themselves, so the table cannot drift from the
+manifest. The two figure scripts redraw Figures 1 and 2 from the products and stop
+if a product no longer supports the caption. Nothing here needs network access.
+
+The manuscript's Data availability statement names, for every printed quantity, the
+product that carries it and the first sixteen hex digits of that product's SHA-256.
+The **Products** table below maps each product to the section that prints it, so a
+reviewer can go from a sentence in the article to the bytes behind it in two steps.
 
 ## What is not in this repository
 
@@ -33,7 +52,7 @@ It reads `MANIFEST.sha256`, recomputes the SHA-256 of every listed file, and exi
 
 ## Checking a number the article prints
 
-The article cites tag `v1.3`. Clone that tag if you want the exact tree a quoted number came from.
+The article cites tag `v1.4`. Clone that tag if you want the exact tree a quoted number came from. Products and check scripts are unchanged from `v1.3`; `v1.4` updates the documentation and citation metadata for the *Social Sciences* submission.
 
 1. Find the product the Data availability statement names for that quantity. The table below says what each product binds, and the article section that prints it.
 2. Run `python checks/verify.py`. No `CHANGED` or `MISSING` line for that file means its bytes are the ones the number was read from.
@@ -99,6 +118,11 @@ The others are the files the article's numbers were read from, not files rebuilt
 
 ## Version history
 
+`v1.4` updates the manuscript title, the journal status and the reviewer-facing
+checks in this README, and refreshes `CITATION.cff`. No product, check script,
+figure or `MANIFEST.sha256` entry changed; `python checks/verify.py` still reports
+34 files, 0 mismatched.
+
 `v1.3` adds `CITATION.cff` and the section above on checking a printed number. No product, check script or figure changed: every hash and size in `MANIFEST.sha256` is the same as in `v1.2`, and `python checks/verify.py` still reports 34 files, 0 mismatched.
 
 `v1.0` and `v1.1` carried thirteen products and their scripts. `v1.2` adds
@@ -109,7 +133,7 @@ their rendered output. Nothing in the earlier products changed; their hashes in
 
 ## Citation
 
-Cite the article, and cite a product by filename and hash if you rely on a specific number. `CITATION.cff` carries the three authors and the article title, so GitHub's "Cite this repository" button works. It names the article rather than a journal, because the article is under review; a bibliographic entry will be added here once it appears.
+Cite the article, and cite a product by filename and hash if you rely on a specific number. `CITATION.cff` carries the three authors and the article title, so GitHub's "Cite this repository" button works. It names the article and its target journal; a bibliographic entry with volume and pages will be added here once the article appears.
 
 ## Licence
 
