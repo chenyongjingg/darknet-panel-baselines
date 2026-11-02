@@ -52,7 +52,7 @@ It reads `MANIFEST.sha256`, recomputes the SHA-256 of every listed file, and exi
 
 ## Checking a number the article prints
 
-The article cites tag `v1.4`. Clone that tag if you want the exact tree a quoted number came from. Products and check scripts are unchanged from `v1.3`; `v1.4` updates the documentation and citation metadata for the *Social Sciences* submission.
+The article cites tag `v1.6`. Clone that tag if you want the exact tree a quoted number came from. Products and check scripts are unchanged from `v1.3`; `v1.4`–`v1.6` update the documentation and the two figure renderings for the *Social Sciences* submission.
 
 1. Find the product the Data availability statement names for that quantity. The table below says what each product binds, and the article section that prints it.
 2. Run `python checks/verify.py`. No `CHANGED` or `MISSING` line for that file means its bytes are the ones the number was read from.
