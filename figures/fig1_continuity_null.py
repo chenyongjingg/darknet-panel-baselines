@@ -17,7 +17,7 @@ What is plotted, and what is not:
     about the shape of the distribution between them;
   * every number that appears in the figure also appears in the manuscript text.
 
-Output: fig1_continuity_null.png and .pdf at 17.5 cm width, 300 dpi.
+Output: fig1_continuity_null.png and .pdf at 17.5 cm width, 600 dpi.
 """
 import io
 import json
@@ -36,7 +36,7 @@ GREY = "#8C8C8C"     # null
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans",
-    "font.size": 8,
+    "font.size": 9,
     "axes.linewidth": 0.6,
     "xtick.major.width": 0.6,
     "ytick.major.width": 0.6,
@@ -71,8 +71,8 @@ mean_check = sum(v for _, v in rows) / len(rows)
 assert abs(mean_check - real) < 1e-12, (mean_check, real)
 assert len(rows) == key["n_events"]
 
-fig = plt.figure(figsize=(17.5 / 2.54, 9.2 / 2.54))
-ax = fig.add_axes([0.155, 0.175, 0.575, 0.715])
+fig = plt.figure(figsize=(17.5 / 2.54, 8.6 / 2.54))
+ax = fig.add_axes([0.195, 0.175, 0.535, 0.715])
 
 y = list(range(len(rows)))[::-1]
 
@@ -100,45 +100,51 @@ ax.set_axisbelow(True)
 mid = (null_p05 + null_p95) / 2
 ax.text(mid, len(rows) - 0.05,
         "5th-95th percentile of the null: %.4f to %.4f" % (null_p05, null_p95),
-        ha="center", va="bottom", fontsize=7.2, color="#5A5A5A")
+        ha="center", va="bottom", fontsize=8.2, color="#5A5A5A")
 ax.annotate("realised, 12-event mean %.4f" % real,
-            xy=(real, 8.4), xytext=(real - 0.006, 8.4),
-            ha="right", va="center", fontsize=7.4, color=BLUE)
+            xy=(real, 6.2), xytext=(0.735, 6.2),
+            ha="left", va="center", fontsize=8.4, color=BLUE)
 ax.annotate("null mean %.4f" % null_mean,
             xy=(null_mean, 0.45), xytext=(null_mean - 0.008, 0.45),
-            ha="right", va="center", fontsize=7.2, color="#5A5A5A")
+            ha="right", va="center", fontsize=8.2, color="#5A5A5A")
 ax.annotate("null median %.4f" % null_p50,
             xy=(null_p50, 1.45), xytext=(null_p50 - 0.008, 1.45),
-            ha="right", va="center", fontsize=7.2, color="#5A5A5A")
+            ha="right", va="center", fontsize=8.2, color="#5A5A5A")
 
 handles = [Line2D([0], [0], color=BLUE, lw=1.7, label="realised"),
            Line2D([0], [0], color=GREY, ls=(0, (4, 2)), lw=1.1, label="null mean"),
            Line2D([0], [0], color=GREY, ls=(0, (1, 2)), lw=1.1, label="null median"),
            Line2D([0], [0], marker="s", color="none", mfc=GREY, alpha=0.45,
                   ms=7, label="null 5th-95th percentile")]
-ax.legend(handles=handles, loc="upper left", frameon=False, fontsize=7.0,
+ax.legend(handles=handles, loc="upper left", frameon=False, fontsize=8.0,
           handlelength=1.7, labelspacing=0.3, borderaxespad=0.2)
 
 # right-hand column: the percentile scale, stated rather than drawn
 axr = fig.add_axes([0.725, 0.175, 0.265, 0.715])
 axr.set_axis_off()
 axr.text(0.0, 0.99, "Where the realised value\nsits in that null",
-         transform=axr.transAxes, ha="left", va="top", fontsize=7.6)
+         transform=axr.transAxes, ha="left", va="top", fontsize=8.6)
 axr.text(0.0, 0.86, "%.1fth percentile" % (pct * 100),
          transform=axr.transAxes, ha="left", va="top",
-         fontsize=9.0, color=BLUE, fontweight="bold")
+         fontsize=10.0, color=BLUE, fontweight="bold")
 axr.text(0.0, 0.78,
          "seed band %.2f to %.2f\n(50 seeds of %s draws)"
          % (seed_min * 100, seed_max * 100, format(g47["params"]["n_rep"], ",")),
          transform=axr.transAxes, ha="left", va="top",
-         fontsize=7.2, color="#5A5A5A")
+         fontsize=8.2, color="#5A5A5A")
 axr.text(0.0, 0.63,
          "The null is the same statistic\nin the same unit: one draw\nper event, then the twelve-\nevent mean.",
          transform=axr.transAxes, ha="left", va="top",
-         fontsize=7.2, color="#5A5A5A")
+         fontsize=8.2, color="#5A5A5A")
 
+os.makedirs(HERE, exist_ok=True)
 meta = {"CreationDate": None, "ModDate": None}
-for ext in ("png", "pdf"):
+for ext in ("png", "tif", "pdf"):
     out = os.path.join(HERE, "fig1_continuity_null." + ext)
-    fig.savefig(out, dpi=300, metadata=meta if ext == "pdf" else None)
+    if ext == "tif":
+        fig.savefig(out, dpi=600, pil_kwargs={"compression": "tiff_lzw"})
+    elif ext == "pdf":
+        fig.savefig(out, dpi=600, metadata=meta)
+    else:
+        fig.savefig(out, dpi=600)
     print("wrote", out, os.path.getsize(out), "B")

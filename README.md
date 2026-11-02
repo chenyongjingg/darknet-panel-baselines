@@ -87,7 +87,7 @@ What this establishes is narrow: the file is the file. It does not establish tha
 |---|---|
 | `fig1_continuity_null.py` | draws Figure 1 from `g19`, `g30` and `g47` |
 | `fig2_identity_band.py` | draws Figure 2 from `g52` |
-| `*.png`, `*.pdf` | what the scripts write, at 300 dpi and 17.5 cm width |
+| `*.png`, `*.pdf` | what the scripts write, at 600 dpi and 17.5 cm width |
 
 Both scripts assert their inputs before drawing: `fig1` checks that the twelve
 per-event shares in `g19` average exactly to the twelve-event mean in `g30`, and
@@ -117,6 +117,11 @@ Each script runs as `python <script>.py` and reads its inputs from paths written
 The others are the files the article's numbers were read from, not files rebuilt afterwards.
 
 ## Version history
+
+`v1.5` redraws Figure 1 with the value annotation moved clear of the legend and
+syncs the figure script to the 600 dpi, 9 pt setting used in the manuscript. No
+product or check script changed; `python checks/verify.py` reports 34 files,
+0 mismatched.
 
 `v1.4` updates the manuscript title, the journal status and the reviewer-facing
 checks in this README, and refreshes `CITATION.cff`. No product, check script,
